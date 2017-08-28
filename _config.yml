@@ -45,11 +45,8 @@ widgets:
   - title: Documentation & Links
     url: features
     archor: true
-  - title: Event
-    url: docs
-    archor: true
   - title: Participants
-    url: license
+    url: docs
     archor: true
   - title: Contact
     url: contact
