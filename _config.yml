@@ -3,8 +3,8 @@
 title:               Living Atlases
 email:               example@gmail.com
 tagline:             Living Atlases community
-url:                 "https://melecoq.github.io/Living-Altases-website" # insert your site's URL
-baseurl:             "https://melecoq.github.io"
+url:                 "https://melecoq.github.io" # insert your site's URL
+baseurl:             "https://melecoq.github.io/Living-Altases-website"
 
 # About/contact
 author: # you can edit these to be your personal details
