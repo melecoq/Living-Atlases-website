@@ -235,9 +235,21 @@ pre code {
   position: relative;
   top: -5px;
 }
+.promo .back-li{
+  background: rgba(213, 80, 42, 0.45);
+}
 .promo .caption{
   font-size: 12px;
   color: #384047;
+  text-align: center;
+}
+.promo .caption .back-caption{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.promo .caption p{
+  color: #fff;
+  margin-bottom: 0;
 }
 /* ======= About Section ======= */
 .about {
