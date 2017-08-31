@@ -7,7 +7,7 @@
 Official **Living Atlases** website using Jekyll and based on [devAid](https://github.com/xriley/devAid-Theme) theme from [Xiaoying Riley](http://xiaoyingriley.com/). 
 
 
-### Installation
+## Installation
 
 1. Install [Jekyll](https://jekyllrb.com/),
 2. Clone this repo onto your computer,
@@ -23,10 +23,22 @@ url:
 baseurl:   
 ```
 
-### Data
+## Data
 
-#### Community in action ...
+### Participants
 
-You can add image to the carousel by ....
+#### Living Atlases
 
-> the image height need to be 630px and the image width need to be 840.
+To add an institution to the existing list, you need to enter the below information for the new described data portal in `_data\participants.yml` file. 
+We try to keep an ordered list using institution name.
+
+```
+- institution: <institution_name>
+  data-portal: <data_portal_url> (can be empty)
+  gbif-page: <data_portal_gbif_page_url> (cen be empty)
+  country: <country>
+  language: <language(s)>
+  status: "In production", "In progress" or "In discussion"
+```
+
+#### The community in action

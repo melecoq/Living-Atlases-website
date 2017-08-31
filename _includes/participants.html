@@ -19,84 +19,29 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    
-                                    <td><a href="https://www.ala.org.au" target="_blank">Atlas of Living Australia</a></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82983/atlas-of-living-australia" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Australia</td>
-                                    <td>English</td>
-                                    <td>In production</td>
-                                <tr>
-                                <tr>
-                                    <td>Canadensys</td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82984/canadensys" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Canada</td>
-                                    <td>English - French</td>
-                                    <td>In progress</td>
-                                <tr>
-                                <tr>
-                                    <td><a href="http://portail.gbif.fr" target="_blank">GBIF France</a></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82969/atlas-of-living-france" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>France</td>
-                                    <td>French</td>
-                                    <td>In production</td>
-                                <tr>
-                                <tr>
-                                    <td> <a href="http://datos.gbif.es" target="_blank">GBIF Spain</a></span></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82954/gbifes" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Spain</td>
-                                    <td>Spanish</td>
-                                    <td>In production</td>
-                                <tr>
-                                <tr>
-                                    <td><a href="http://dados.gbif.pt" target="_blank">GBIF Portugal </a></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82967/gbifpt" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Portugal</td>
-                                    <td>Portugese</td>
-                                    <td>In production</td>
-                                <tr>  
-                                <tr>
-                                    <td><a href="http://www.crbio.cr/crbio/?page_id=2&lang=es" target="_blank">CRBio</a></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82989/crbio-atlas-of-living-costa-rica" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Costa Rica</td>
-                                    <td>Spanish - English</td>
-                                    <td>In production</td>
-                                <tr>
-                                <tr>
-                                    <td><a href="http://datos.sndb.mincyt.gob.ar/" target+"_blank">Sistema Nacional de Datos Biologicos</a></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82985/argentina-sistema-nacional-de-datos-biologicos" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Argentina</td>
-                                    <td>Spanish</td>
-                                    <td>In production</td>
-                                <tr> 
-                                <tr>
-                                    <td><a href="https://bioatlas.se" target="_blank">GBIF Sweden</a></td>
-                                    <td class="text-center"></td>
-                                    <td>Sweden</td>
-                                    <td>Swedish - English</td>
-                                    <td>In production</td>
-                                <tr>   
-                                <tr>
-                                    <td><a href="https://nbnatlas.org/" target="_blank">National Biodiversity Network Atlas </a></td>
-                                    <td class="text-center"></td>
-                                    <td>United Kingdom</td>
-                                    <td>English</td>
-                                    <td>In production</td>
-                                <tr> 
-                                <tr>
-                                    <td><a href="https://scotland.nbnatlas.org/" target="_blank">National Biodiversity Network Altas - Scotland </a></td>
-                                    <td class="text-center"><a href="https://www.gbif.org/project/82973/atlas-of-living-scotland" target="_blank"><img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png"></a></td>
-                                    <td>Scotland</td>
-                                    <td>English</td>
-                                    <td>In production</td>
-                                <tr> 
-                                <tr>
-                                    <td><a href="https://wales.nbnatlas.org/" target="_blank">National Biodiversity Network Atlas - Wales</a></td>
-                                    <td class="text-center"></td>
-                                    <td>Wales</td>
-                                    <td>English - Welsh</td>
-                                    <td>In production</td>
-                                <tr>  
+                                {% for participant in site.data.participants %}
+                                    <tr>
+                                        <td>
+                                            {% if participant.data-portal %}
+                                                <a href="{{ participant.data-portal }}" target="_blank">
+                                            {% endif %}
+                                                    {{ participant.institution }}
+                                            {% if participant.data-portal %}
+                                                </a>
+                                            {% endif %}    
+                                        </td>
+                                        <td class="text-center">
+                                            {% if participant.gbif-page %}
+                                                <a href="{{ participant.gbif-page }}" target="_blank">
+                                                    <img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png">
+                                                </a>
+                                            {% endif %}    
+                                        </td>
+                                        <td>{{ participant.country }}</td>
+                                        <td>{{ participant.language }}</td>
+                                        <td>{{ participant.status }}</td>
+                                    <tr>
+                                {% endfor %}
                             </tbody>
                         </table>
                     </div>
