@@ -13,13 +13,15 @@ Official **Living Atlases** website using Jekyll and based on [devAid](https://g
 2. Clone this repo onto your computer,
 3. Comment baseUrl and URL on the _config file 
 
-    # For local development, comment these lines and uncomment the two other lines.
-    url: "https://melecoq.github.io/Living-Atlases-website/"     
-    baseurl: "https://melecoq.github.io/Living-Atlases-website/"   
+```
+# For local development, comment these lines and uncomment the two other lines.
+url: "URL"     
+baseurl: "BASEURL"   
 
-    # For production, comment these lines and uncomment the two lines above.
-    url:
-    baseurl:
+# For production, comment these lines and uncomment the two lines above.
+url:    
+baseurl:   
+```
 
 ### Data
 
