@@ -16,7 +16,7 @@ Official **Living Atlases** website using Jekyll and based on [devAid](https://g
 ```
 # For local development, comment these lines and uncomment the two other lines.
 url: "URL"     
-baseurl: "BASEURL   
+baseurl: "BASEURL"   
 
 # For production, comment these lines and uncomment the two lines above.
 url:    
