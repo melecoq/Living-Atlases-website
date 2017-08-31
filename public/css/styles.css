@@ -387,6 +387,11 @@ pre code {
   color: #384047;
 }
 
+.participants .fixed-carrousel{
+  max-height: 560px; 
+  overflow: hidden;
+}
+
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;

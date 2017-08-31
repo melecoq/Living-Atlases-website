@@ -1,22 +1,30 @@
-# devAid **Jekyll** Theme
+#  **Living Atlases** official website
 
 <p align="center">
-  <img src="images/devaid_cover.png">
+  <img src="public/images/front-page-website.png">
 </p>
 
-[devAid](https://github.com/xriley/devAid-Theme) theme from [Xiaoying Riley](http://xiaoyingriley.com/), adopted to Jekyll
+Official **Living Atlases** website using Jekyll and based on [devAid](https://github.com/xriley/devAid-Theme) theme from [Xiaoying Riley](http://xiaoyingriley.com/). 
 
-early stage, pls open issue if you need any updates
 
-### Installing
+### Installation
 
-Install [Jekyll](https://jekyllrb.com/) if you haven't already.
+1. Install [Jekyll](https://jekyllrb.com/),
+2. Clone this repo onto your computer,
+3. Comment baseUrl and URL on the _config file 
 
-1. Either clone this repo onto your computer, or download a package (tar or .zip) and un-pack it.
-2. From `/devaid-jekyll-theme`, or the site's root directory run `jekyll serve`.
+    # For local development, comment these lines and uncomment the two other lines.
+    url: "https://melecoq.github.io/Living-Atlases-website/"     
+    baseurl: "https://melecoq.github.io/Living-Atlases-website/"   
 
-A Jekyll server will be run locally so that you can see your site.
+    # For production, comment these lines and uncomment the two lines above.
+    url:
+    baseurl:
 
-### Download
+### Data
 
-[Download Tar Package](https://github.com/kevit/devaid-jekyll-theme/blob/master/archive.tar.bz2), or [get .zip package](https://github.com/thundergolfer/devaid-jekyll-theme/archive/master.zip)
+#### Carousel
+
+You can add image to the carousel by ....
+
+> the image height need to be 630px and the image width need to be 840.
