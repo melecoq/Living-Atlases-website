@@ -23,7 +23,7 @@ Official **Living Atlases** website using Jekyll and based on [devAid](https://g
 
 ### Data
 
-#### Carousel
+#### Community in action ...
 
 You can add image to the carousel by ....
 
