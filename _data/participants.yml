@@ -18,6 +18,11 @@
   language: Spanish - English
   status: In production
 
+- institution: GBIF Benin
+  country: Benin
+  language: French
+  status: In progress
+
 - institution: GBIF France
   data-portal: http://portail.gbif.fr
   gbif-page: https://www.gbif.org/project/82969/atlas-of-living-france
@@ -42,6 +47,12 @@
   data-portal: http://dados.gbif.pt
   gbif-page: https://www.gbif.org/project/82967/gbifpt
   country: Portugal
+  language: Portugese
+  status: In production
+
+- institution: Instituto Chico Mendes de Conservaçao de Biodiversidad
+  data-portal: http://portaldabiodiversidade.icmbio.gov.br/portal/
+  country: Brazil
   language: Portugese
   status: In production
 
@@ -70,3 +81,12 @@
   country: Argentina
   language: Spanish
   status: In production
+
+- institution: University of Tartu Natural History Museum
+  country: Estonia
+  status: In production
+
+- country: Philippine
+  status: In discussion
+
+- country: Germany
