@@ -42,3 +42,14 @@ We try to keep an ordered list using institution name.
 ```
 
 #### The community in action
+
+To add an image to the carousel, you need to enter the below information for the new image in _data\carousel.yml. 
+
+``` 
+- id: <id> # position in the carousel. If you want to add an image at an already existing id of the carousel, you will need to modify id for each picture after this specific one. 
+  active: < true or false > # **Only one photo can be active at the time**. If you want to active one, you will ne to switch the current one from true to false. 
+  image_name: <picture-name> 
+  caption: <event, year - city, town <br /> Photo by photographer-name, photographer-institution>
+```
+
+> Image nead to be at lest  840*560 px. 

@@ -230,11 +230,6 @@ pre code {
 .promo .social-media li {
   margin-top: 15px;
 }
-.promo .social-media li.facebook-like {
-  margin-top: 0;
-  position: relative;
-  top: -5px;
-}
 .promo .back-li{
   background: rgba(213, 80, 42, 0.45);
 }
@@ -246,7 +241,6 @@ pre code {
 .promo .caption .back-caption{
   background-color: rgba(0,0,0,0.5);
 }
-
 .promo .caption p{
   color: #fff;
   margin-bottom: 0;
@@ -487,51 +481,6 @@ pre code {
   margin-bottom: 30px;
   margin-top: 0;
 }
-.contact .social-icons {
-  list-style: none;
-  padding: 10px 0;
-  margin-bottom: 0;
-  display: inline-block;
-  margin: 0 auto;
-}
-.contact .social-icons li {
-  float: left;
-}
-.contact .social-icons li.last {
-  margin-right: 0;
-}
-.contact .social-icons a {
-  display: inline-block;
-  width: 25%;
-  height: 25%;
-  text-align: center;
-  padding-top: 12px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  margin-right: 8px;
-  float: left;
-}
-.contact .social-icons a:hover {
-  background: #e6ad14;
-}
-.contact .social-icons a .fa {
-  color: #fff;
-}
-.contact .social-icons a .fa:before {
-  font-size: 26px;
-  text-align: center;
-  padding: 0;
-}
-
-.contact .logo {
-
-}
 
 .contact .logo .col-md-3{
     display: inline-block;
@@ -566,9 +515,7 @@ pre code {
   -moz-opacity: 0.8;
   opacity: 0.8;
 }
-.footer .fa-heart {
-  color: #fff;
-}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .main-nav button {
@@ -609,14 +556,8 @@ pre code {
   .contact .author-message .speech-bubble:after {
     display: none;
   }
-  .contact .social-icons a {
-    width: 36px;
-    height: 36px;
-    padding-top: 7px;
-    margin-right: 2px;
-  }
-  .contact .social-icons a .fa:before {
-    font-size: 18px;
+  #logo-csiro, #logo-ncris, #logo-ala, #logo-gbif{
+    width: 150%  
   }
 
   .participants .icon-link .gbif{
