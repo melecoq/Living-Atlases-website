@@ -251,97 +251,97 @@ pre code {
   color: #fff;
   margin-bottom: 0;
 }
-/* ======= About Section ======= */
-.about {
+/* ======= Modules Section ======= */
+.modules {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.about .title {
+.modules .title {
   color: #D5502A;
   margin-top: 0;
   margin-bottom: 60px;
 }
-.about .intro {
+.modules .intro {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.about .item {
+.modules .item {
   position: relative;
   margin-bottom: 30px;
 }
-.about .item .icon-holder {
+.modules .item .icon-holder {
   position: absolute;
   left: 30px;
   top: 0;
 }
-.about .item .icon-holder .fa {
+.modules .item .icon-holder .fa {
   font-size: 24px;
   color: #D5502A;
 }
-.about .item .content {
+.modules .item .content {
   padding-left: 60px;
 }
-.about .item .content .sub-title {
+.modules .item .content .sub-title {
   margin-top: 0;
   color: #  ;
   font-size: 18px;
 }
-/* ======= Features Section ======= */
-.features {
+/* ======= Docs Section ======= */
+.docs {
   padding: 80px 0;
   background: #fff;
   color: #D5502A;
 }
-.features .title {
+.docs .title {
   color: #384047;
   margin-top: 0;
   margin-bottom: 60px;
 }
-.features .intro {
+.docs .intro {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.features .item {
+.docs .item {
   position: relative;
   margin-bottom: 30px;
 }
-.features .item .icon-holder {
+.docs .item .icon-holder {
   position: absolute;
   left: 30px;
   top: 0;
 }
-.features .item .icon-holder .fa {
+.docs .item .icon-holder .fa {
   font-size: 24px;
   color: #384047;
 }
-.features .item .content {
+.docs .item .content {
   padding-left: 60px;
 }
-.features .item .content .sub-title {
+.docs .item .content .sub-title {
   margin-top: 0;
   color: #384047;
   font-size: 18px;
 }
-.features a {
+.docs a {
   color: #384047;
 }
-.features a:hover {
+.docs a:hover {
   color: #384047;
 } 
-/* ======= Docs Section ======= */
-.docs {
+/* ======= Participants Section ======= */
+.participants {
   padding: 80px 0;
   background: #f5f5f5;
   color: #D5502A;
 }
-.docs .title {
+.participants .title {
   color: #D5502A;;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.docs .docs-inner {
+.participants .participants-inner {
   max-width: 900px;
   background: #fff;
   padding: 30px;
@@ -355,35 +355,35 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.docs .block {
+.participants .block {
   margin-bottom: 60px;
 }
 
-.docs h3{
+.participants h3{
   color: #384047;
 }
 
-.docs  .icon-holder {
+.participants  .icon-holder {
   position: relative;
   left: 2%;
   top: 0;
 }
-.docs .icon-holder .fa {
+.participants .icon-holder .fa {
   color: #384047;
 }
 
-.docs .gbif{
+.participants .gbif{
   width: 15%;
 }
 
-.docs th {
+.participants th {
   color: #384047;
 }
 
-.docs  a {
+.participants  a {
   color: #384047;
 }
-.docs  a:hover {
+.participants  a:hover {
   color: #384047;
 }
 
@@ -614,7 +614,7 @@ pre code {
     font-size: 18px;
   }
 
-  .docs .icon-link .gbif{
+  .participants .icon-link .gbif{
     width: 35%;
   }
 }
