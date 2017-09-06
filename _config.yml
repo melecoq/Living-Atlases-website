@@ -43,21 +43,21 @@ permalink:    pretty
 widgets:
   - title: Introduction
     archor: intro
-    url: /#intro
+    url: #intro
     page: Home
   - title: Documentation & Links
     archor: docs
-    url: /#docs
+    url: #docs
     page: Home
   - title: Participants
     archor: participants
-    url: /#participants
+    url: #participants
     page: Home
   - title: Contact
     archor: contact
-    url: /#contact
+    url: #contact
     page: Home
   - title: Event
     archor: event
-    url: /event
+    url: event
     page: Event
