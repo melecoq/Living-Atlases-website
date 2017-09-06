@@ -3,10 +3,10 @@
 title:               Living Atlases
 email:               example@gmail.com
 tagline:             Living Atlases community
-url:                 "https://melecoq.github.io/Living-Atlases-website/" # insert your site's URL
-baseurl:             "https://melecoq.github.io/Living-Atlases-website/"
-# url: 
-# baseurl: 
+# url:                 "https://melecoq.github.io/Living-Atlases-website/" # insert your site's URL
+# baseurl:             "https://melecoq.github.io/Living-Atlases-website/"
+url: 
+baseurl: 
 
 # About/contact
 author: # you can edit these to be your personal details
@@ -41,15 +41,23 @@ markdown:     kramdown
 permalink:    pretty
 
 widgets:
-  - title: Modules
-    url: modules
-    archor: true
+  - title: Introduction
+    archor: intro
+    url: /#intro
+    page: Home
   - title: Documentation & Links
-    url: docs
-    archor: true
+    archor: docs
+    url: /#docs
+    page: Home
   - title: Participants
-    url: participants
-    archor: true
+    archor: participants
+    url: /#participants
+    page: Home
   - title: Contact
-    url: contact
-    archor: true
+    archor: contact
+    url: /#contact
+    page: Home
+  - title: Event
+    archor: event
+    url: /event
+    page: Event
