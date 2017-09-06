@@ -1,0 +1,13 @@
+- id: "2"
+  pres_id: "1"
+  speaker: "Santiago Martinez de la Riva (GBIF Spain)"
+  title: "Biodiversity platform of GBIF Spain based on ALA"
+  link: "https://drive.google.com/file/d/0B40d0nSKU6fzT0VocmVGUFA1WFk/view?usp=sharing"
+  type: "talk"
+
+- id: "1"
+  pres_id: "1"
+  speaker: "Dave Martin (Atlas of Living Australia)"
+  title: "Launching Atlas of Living Scotland"
+  link: "https://docs.google.com/presentation/d/1l08S0u0nznCdAPeihtYHGE_DX3Ny-wbnKMJqichadSU/edit"
+  type: "talk"

@@ -1,21 +1,41 @@
     <!-- ******EVENT****** --> 
-    <section id="event" class="participants section">
+    <section id="event" class="modules events section">
         <div class="container">  
-            <h2 class="title text-center"></h2>  
-            <div class="participants-inner">          
-                <div class="block">
-                    <h3 class="sub-title text-center">Future events</h3>
-                    
-                </div> <!-- // block-->
-            </div> <!-- // participants-inner-->     
-        </div><!--//container-->
-        <div class="container">  
-            <h2 class="title text-center"></h2>  
-            <div class="participants-inner">          
-                <div class="block">
-                    <h3 class="sub-title text-center">Past events</h3>
-                    
-                </div> <!-- // block-->
-            </div> <!-- // participants-inner-->     
+            <h2 class="title text-center">Living Atlases events</h2>  
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                {% for event in site.data.events %}
+                        <div class="panel panel-default">
+                            {% if event.type=="Portal" %}
+                                <div class="button panel-heading portal" data-toggle="collapse" data-target="#{{ event.id }}">
+                                    <span class="back-event back-event-portal">{{ event.type }}</span> {{ event.title }}
+                                </div>
+                            {% elsif event.type=="Workshop" %}
+                                <div class="button panel-heading workshop" data-toggle="collapse" data-target="#{{ event.id }}">
+                                    <span class="back-event back-event-workshop">{{ event.type }}</span> {{ event.title }}
+                                </div>
+                            {% endif %}
+                            {% if event.valide==true %}
+                                <div id="{{ event.id }}" class="panel-collapse collapse in">
+                            {% elsif event.valide==false %}
+                                <div id="{{ event.id }}" class="panel-collapse collapse ">
+                            {% endif %}  
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="panel-body"> <i class="fa fa-calendar"></i> {{ event.date }}</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="panel-body"><i class="fa fa-map-marker"></i> {{ event.place }} </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">{{ event.description }}</div>
+                            </div>
+                        </div>                
+                {% endfor %}
+            </div>
         </div><!--//container-->
     </section><!--//participants->
+
+
+
+

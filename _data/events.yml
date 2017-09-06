@@ -1,0 +1,31 @@
+- id: "4"
+  title: "Living Atlases workshop (CESP)"
+  type: Workshop
+  description: <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus, tellus in sodales commodo, nunc orci consectetur diam, in aliquam nulla dui at purus. Quisque sapien dolor, pulvinar et ornare porttitor, suscipit id est. Nullam nibh nulla, tempus id diam ac, ullamcorper vulputate massa. Phasellus non dui quis enim suscipit condimentum malesuada vel ligula. Vivamus volutpat, dui sed ultrices rutrum, nunc lacus rutrum orci, vel dapibus ex lorem vitae nisl. Etiam ultricies magna vel metus posuere, sed faucibus elit fringilla. Donec porttitor tortor ex.</p> <p class="text-justify">Phasellus non interdum dolor. Pellentesque ac sem id ipsum egestas bibendum id id enim. Nam tincidunt nisi quis metus tempus, in egestas ipsum elementum. Morbi tempor eros ut nibh molestie, in pellentesque tortor rutrum. Suspendisse ut lorem ac velit congue viverra eget ut turpis. Pellentesque orci odio, semper et mauris at, euismod vestibulum diam. Etiam euismod pulvinar nunc non facilisis. Fusce volutpat turpis turpis, ut dignissim mauris facilisis in. Nunc ligula urna, elementum eget gravida sed, dignissim at massa. Duis malesuada sagittis augue. Nulla quam arcu, pretium quis commodo id, accumsan ut libero. Duis viverra ipsum ac congue pharetra. Nunc eu diam ac sapien facilisis vulputate. Vivamus congue nunc eu leo placerat auctor et sed tortor. </p>
+  date: February 12, 2018 - February 16, 2018
+  place: Madrid, Spain - Real Jardin Botanico
+  valide: true
+
+- id: "3"
+  title: "Reusing an open source platform in order to create a community: example of the Living Atlases community (TDWG)"
+  type: Workshop
+  description: <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus, tellus in sodales commodo, nunc orci consectetur diam, in aliquam nulla dui at purus. Quisque sapien dolor, pulvinar et ornare porttitor, suscipit id est. Nullam nibh nulla, tempus id diam ac, ullamcorper vulputate massa. Phasellus non dui quis enim suscipit condimentum malesuada vel ligula. Vivamus volutpat, dui sed ultrices rutrum, nunc lacus rutrum orci, vel dapibus ex lorem vitae nisl. Etiam ultricies magna vel metus posuere, sed faucibus elit fringilla. Donec porttitor tortor ex.</p> <p class="text-justify">Phasellus non interdum dolor. Pellentesque ac sem id ipsum egestas bibendum id id enim. Nam tincidunt nisi quis metus tempus, in egestas ipsum elementum. Morbi tempor eros ut nibh molestie, in pellentesque tortor rutrum. Suspendisse ut lorem ac velit congue viverra eget ut turpis. Pellentesque orci odio, semper et mauris at, euismod vestibulum diam. Etiam euismod pulvinar nunc non facilisis. Fusce volutpat turpis turpis, ut dignissim mauris facilisis in. Nunc ligula urna, elementum eget gravida sed, dignissim at massa. Duis malesuada sagittis augue. Nulla quam arcu, pretium quis commodo id, accumsan ut libero. Duis viverra ipsum ac congue pharetra. Nunc eu diam ac sapien facilisis vulputate. Vivamus congue nunc eu leo placerat auctor et sed tortor. </p>
+  date: October 3, 2017 - October 4, 2017
+  place: Ottawa, Canada
+  valide: true
+
+- id: "2"
+  title: "GBIF France launched its data portal in production"
+  type: Portal
+  description: <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus, tellus in sodales commodo, nunc orci consectetur diam, in aliquam nulla dui at purus. Quisque sapien dolor, pulvinar et ornare porttitor, suscipit id est. Nullam nibh nulla, tempus id diam ac, ullamcorper vulputate massa. Phasellus non dui quis enim suscipit condimentum malesuada vel ligula. Vivamus volutpat, dui sed ultrices rutrum, nunc lacus rutrum orci, vel dapibus ex lorem vitae nisl. Etiam ultricies magna vel metus posuere, sed faucibus elit fringilla. Donec porttitor tortor ex.</p> <p class="text-justify">Phasellus non interdum dolor. Pellentesque ac sem id ipsum egestas bibendum id id enim. Nam tincidunt nisi quis metus tempus, in egestas ipsum elementum. Morbi tempor eros ut nibh molestie, in pellentesque tortor rutrum. Suspendisse ut lorem ac velit congue viverra eget ut turpis. Pellentesque orci odio, semper et mauris at, euismod vestibulum diam. Etiam euismod pulvinar nunc non facilisis. Fusce volutpat turpis turpis, ut dignissim mauris facilisis in. Nunc ligula urna, elementum eget gravida sed, dignissim at massa. Duis malesuada sagittis augue. Nulla quam arcu, pretium quis commodo id, accumsan ut libero. Duis viverra ipsum ac congue pharetra. Nunc eu diam ac sapien facilisis vulputate. Vivamus congue nunc eu leo placerat auctor et sed tortor. </p>
+  date: May 28, 2015 
+  place: Paris, France
+  valide: false
+
+- id: "1"
+  title: Tools for the management and sharing of biodiversity data by CRBIF 
+  type: Workshop
+  description: <p class="text-justify">The Biodiversity Information Facility of Costa Rica CRBio (www.crbio.cr), in collaboration with the Global Biodiversity Information Facility - GBIF (www.gbif.org) and the Atlas of Living Australia - ALA (www.ala.org.au), is pleased to present its II Workshop about Tools for the Management, Sharing and Use of Biodiversity Information.</p> <p class="text-justify">The aim of this workshop is to strengthen participants’ capacity to use information technologies to integrate, analyze and share information to support decision making related to biodiversity.</p> <p class="text-justify">This practical workshops will be divided in two sections; Section I is composed of public presentations and section II will include technical training about the tools developed by ALA. </p>
+  date: February 24, 2013 - February 27, 2013
+  place: Costa Rica - School of Biology, University of Costa Rica (UCR)
+  valide: false
