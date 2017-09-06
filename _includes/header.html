@@ -24,7 +24,7 @@
                             {% if widget.page == page.title %} 
                                 <a class="scrollto" href="#{{ widget.archor }}"> 
                             {% else %}
-                                <a href="{{ site.url }} {{ widget.url }}">
+                                <a href="{{ site.url }}{{ widget.url }}">
                             {% endif %} 
                                 {{ widget.title }}</a></li>
                         {% endfor %}
