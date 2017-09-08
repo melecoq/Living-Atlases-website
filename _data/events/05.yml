@@ -1,0 +1,23 @@
+id: "5"
+title: "2nd meeting of the CoopBioPlat project"
+type: Workshop
+description: <p class="text-justify">CoopBioPlat brings together GBIF nodes in Argentina (SNDB), Brazil (SiBBr), Costa Rica (CRBio), France, Portugal and Spain to produce an institutional agreement to cooperate on developing national biodiversity data portals based on the ALA portal. The meeting also aims to further the customization of the ALA Platform by GBIF Nodes. This 2nd meeting focuses on IT developments. Developers among the project’s partners will be assisted at the meeting by David Martin from ALA.</p>
+    <p class="text-justify">CoopBioPlat is a Pilot Coordination Action, funded by ERANet-LAC of the European Commission, and will be implemented over 18 months.</p>
+    <p class="text-justify">More information is available on the website of GBIF Spain.</p>
+date: October 20, 2015 - October 23, 2015
+place: Madrid, Spain - Royal Botanical Garden
+valide: false
+materials:
+- id: "2"
+  event_id: "5"
+  speaker: "Santiago Martinez de la Riva (GBIF Spain)"
+  title: "Biodiversity platform of GBIF Spain based on ALA"
+  link: "https://drive.google.com/file/d/0B40d0nSKU6fzT0VocmVGUFA1WFk/view?usp=sharing"
+  type: "talk"
+
+- id: "1"
+  event_id: "5"
+  speaker: "Dave Martin (Atlas of Living Australia)"
+  title: "Launching Atlas of Living Scotland"
+  link: "https://docs.google.com/presentation/d/1l08S0u0nznCdAPeihtYHGE_DX3Ny-wbnKMJqichadSU/edit"
+  type: "talk"

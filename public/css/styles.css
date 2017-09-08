@@ -391,19 +391,9 @@ pre code {
   margin-bottom: 30px;
   margin-top: 15px;
 }
-
-.events .workshop{
-  background-color: rgba(213, 80, 42, 0.25);
+.events .panel-heading{
+  background-color: rgba(0, 0, 0, 0.20);
 }
-
-.events .portal{
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-.events .conference{
-  background-color: rgba(88,153,88, 0.25);
-}
-
 .events .back-event{
   padding: 5px;
   margin-right: 10px;
@@ -411,17 +401,21 @@ pre code {
 }
 .events .back-event-workshop{
   border: 1px solid #D5502A;
+  background-color: rgba(213, 80, 42, 0.80);
 }
 .events .back-event-portal{
   border: 1px solid #000;
 }
 .events .back-event-conference{
   border: 1px solid #589958;
+  background-color: rgba(88,153,88, 0.70);
 }
 .events .fa{
   margin-right: 5px;
 }
-
+.events .event-table{
+  padding-left: 15px;
+}
 /* ======= Materials page ======== */
 .presentations .title{
   margin-bottom: 30px;
@@ -429,7 +423,7 @@ pre code {
 }
 
 .presentations .panel-heading{
-  background-color: rgba(213, 80, 42, 0.25);
+  background-color: rgba(213, 80, 42, 0.5);
 }
 
 
