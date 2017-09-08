@@ -3,7 +3,7 @@
         <div class="container">  
             <h2 class="title text-center">Living Atlases events</h2>  
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                {% for event_hash in site.data.events reversed %}
+                {% for event_hash in site.data.events | order "id" %}
                 {% assign event = event_hash[1] %}
                     <div class="panel panel-default">
                         
