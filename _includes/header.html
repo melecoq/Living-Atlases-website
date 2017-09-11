@@ -23,6 +23,8 @@
                         <li class="nav-item"> 
                             {% if widget.page == page.title %} 
                                 <a class="scrollto" href="#{{ widget.archor }}"> 
+                            {% elsif widget.page == 'Home' %}
+                                <a href="{{ site.url }}#{{ widget.url }}">
                             {% else %}
                                 <a href="{{ site.url }}{{ widget.url }}">
                             {% endif %} 
