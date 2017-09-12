@@ -5,6 +5,7 @@ description: <p class="text-justify">Organized as side event of the 2015 Europea
 date: May 4, 2015 - May 5, 2015
 place: Paris, France - Muséum national d'Histoire naturelle
 valide: false
+presentation: true
 materials:
 - id: "1"
   speaker: "David Martin (Atlas of Living Australia)"

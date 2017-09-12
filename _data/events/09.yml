@@ -1,7 +1,21 @@
 id: "9"
-title: "International ALA Workshop 2016"
-type: Workshop
-description: <p class="text-justify">This workshop brings together software developers from the GBIF network to enhance the development of national data portals based on the Atlas of Living Australia’s open-source infrastructure. Attendees include representatives from the national nodes of Australia, France, Germany, Mexico, Portugal, Spain and Sweden along with organizational member Canadensys.</p>
-date: October 3, 2016 - October 5, 2016
-place: Madrid, Spain - Royal Botanical Garden
+title: "GEO BON Open Science Conference"
+type: Conference
+description:  <p class="text-justify">In July 2016, during the GEO BON conference,  a session and hands-on workshop with main subject as "National Biodiversity Monitoring Network" had been proposed by iDiv, Atlas of Living Australia and other institutions. During this session, two presentations has been made about Atlas of Living Australia tools and community.All abstracts from this thematic are available on the <a href="http://conf2016.geobon.org/Downloads/PDF/GEOBON_Abstract_Book_OSC2016.pdf" target="_blank">official website</a> (beginning at page 99). </p>
+date: July 4, 2016 - July 8, 2016
+place: Liepzig, Germany - Helmholtz Centre for Environmental Research – UFZ
 valide: false
+presentation: true
+materials:
+- id: "1"
+  speaker: "David Martin (CSIRO/GBIF), <br /> <b>Peter Brenton (CSIRO)</b>, <br /> Stephanie von Gavel (CSIRO)."
+  title: "The Atlas of Living Australia – A modular biodiversity information platform with global implementations"
+  link: ""
+  type: "Talk"
+- id: "2"
+  speaker: "Marie-Elise Lecoq (GBIF France), <br /> Dave Martin (Atlas of Living Australia)."
+  title: "Atlas of Living France: GBIF France's portal access to primary data about biodiversity provided by French institutions"
+  link: "9-Lecoq-GEOBON.pdf"
+  type: "Talk"
+  ext: true 
+

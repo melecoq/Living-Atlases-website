@@ -5,6 +5,7 @@ description: <p class="text-justify">Paco Pando, former GBIF Spain node manager,
 date: October 9, 2015 
 place: Antananarivo, Madagascar - International Conference Center of Ivato
 valide: false
+presentation: true
 materials:
 - id: "1"
   speaker: "Paco Pando (GBIF Spain)"

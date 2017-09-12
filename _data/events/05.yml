@@ -7,6 +7,7 @@ description: <p class="text-justify">CoopBioPlat brings together GBIF nodes in A
 date: October 20, 2015 - October 23, 2015
 place: Madrid, Spain - Royal Botanical Garden
 valide: false
+presentation: true
 materials:
 - id: "1"
   speaker: "Dave Martin (Atlas of Living Australia)"

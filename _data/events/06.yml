@@ -5,6 +5,7 @@ description: <p class="text-justify">During the conference, the GBIF France's te
 date: September 28, 2015 - October 1, 2015
 place: Nairobi, Kenya - Windsor Golf and Country Club
 valide: false
+presentation: true
 materials:
 - id: "1"
   speaker: "<b>Marie-Elise Lecoq (GBIF France)</b>, <br /> Dave Martin (Atlas of Living Australia), <br /> Tim Robertson (GBIF)."

@@ -32,16 +32,17 @@
                                 </div>
                             </div>
                             <div class="panel-body">{{ event.description }}</div>
+                            {% if event.presentation == true %}
                              <table class="table panel-body">
                                 <thead>
                                     <tr>
-                                        <th class="event-table-1">Title</th>
+                                        <th class="event-table-1" style="width:45%">Title</th>
                                         {% if event.type == "Portal" %}
-                                            <th> Developers </th>
+                                            <th style="width:45%"> Developer(s) </th>
                                         {% else %}
-                                            <th> Speaker </th>
+                                            <th style="width:45%"> Author(s) </th>
                                         {% endif %}
-                                        <th class="event-table-2">Type</th>
+                                        <th class="event-table-2" style="width:10%">Type</th>
                                     <tr>
                                 </thead>
                                 {% for material in event.materials %}
@@ -62,6 +63,7 @@
                                     </tbody>      
                                 {% endfor %}                          
                             </table>
+                            {% endif %}
                         </div>    
                     </div>                
                 {% endfor %}

@@ -1,14 +1,8 @@
 id: "12"
-title: "Regional Engagement Workshop, BID Caribbean"
+title: "European Nodes Meeting 2017"
 type: Meeting
-description: <p class="text-justify">During the Caribbean regional meeting around BID projects, Marie-Elise Lecoq, GBIF France lead developer presented the community. The discussion introduced by this presentation helped the BID project leads to work on the possibility of using Atlas of Living modules for creating a regional platform for Caribbean countries. </p>
-date: June 22nd, 2017 - June 23rd, 2017
-place: St Augustine, Trinidad and Tobago -  University of West Indies
+description: <p class="text-justify">During the European Nodes Meeting 2017, several presentations had been made by members of the community in order to present their work at the GBIF European community. A technical workshop between advanced members had been organized as side event of this meeting. </p>
+date: May 8, 2017 - May 11, 2017
+place: Stockholm, Sweden - Swedish Museum of Natural History.
 valide: false
-materials:
-- id: "1"
-  speaker: "<b>Marie-Elise Lecoq (GBIF France) </b>, <br /> David Martin (Atlas of Living Australia)."
-  title: "Living Atlases community"
-  link: "12-ALA-community.pdf"
-  type: "Talk"
-  ext: false
+presentation: false
