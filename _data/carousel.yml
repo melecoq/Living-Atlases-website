@@ -52,3 +52,8 @@
   active: false
   image_name: canberra2.jpg
   caption: International ALA workshop 2014 - Canberra, Australia <br /> Photo by Atlas of Living Australia
+
+- id: 11
+  active: false
+  image_name: montreal1.jpg
+  caption: CESP Canadensys GBIF France 2017 - Montreal, Canada <br /> Photo by Marie-Elise Lecoq, GBIF France
