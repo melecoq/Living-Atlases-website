@@ -14,6 +14,8 @@
                                     <span class="back-event back-event-workshop">{{ event.type }}</span> {{ event.title }}
                                 {% elsif event.type=="Conference" %}
                                     <span class="back-event back-event-conference">{{ event.type }}</span> {{ event.title }}
+                                {% elsif event.type=="Meeting" %}
+                                    <span class="back-event back-event-meeting">{{ event.type }}</span> {{ event.title }}
                                 {% endif %}
                             </div> 
                         {% if event.valide==true %}
@@ -33,17 +35,29 @@
                              <table class="table panel-body">
                                 <thead>
                                     <tr>
-                                        <th class="event-table">Title</th>
-                                        <th >Speaker</th>
-                                        <th >Type</th>
+                                        <th class="event-table-1">Title</th>
+                                        {% if event.type == "Portal" %}
+                                            <th> Developers </th>
+                                        {% else %}
+                                            <th> Speaker </th>
+                                        {% endif %}
+                                        <th class="event-table-2">Type</th>
                                     <tr>
                                 </thead>
                                 {% for material in event.materials %}
                                     <tbody>
                                         <tr>
-                                            <td class="event-table">{{ material.title }}</td>
+                                            {%  if material.ext == false %}
+                                                <td class="event-table-1"> 
+                                                    <a href="{{ site.url }}/public/docs/{{ material.link }}" target="_blank">{{ material.title }}</a>
+                                                </td>
+                                            {%  elsif material.ext == true %}
+                                                <td class="event-table-1"> <a href="{{ material.link }}" target="_blank">{{ material.title }}</a></td>
+                                            {% else %}
+                                                <td class="event-table-1"> {{ material.title }}</td>
+                                            {%  endif %}
                                             <td>{{ material.speaker }}</td>
-                                            <td>{{ material.type }}</td>
+                                            <td class="event-table-2">{{ material.type }}</td>
                                         </tr>
                                     </tbody>      
                                 {% endfor %}                          
