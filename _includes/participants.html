@@ -33,7 +33,7 @@
                                         <td class="text-center">
                                             {% if participant.gbif-page %}
                                                 <a href="{{ participant.gbif-page }}" target="_blank">
-                                                    <img class="gbif" src="{{ site.baseurl }}public/css/images/GBIF-2015-mark.png">
+                                                    <img class="gbif" src="{{  }}public/css/images/GBIF-2015-mark.png">
                                                 </a>
                                             {% endif %}    
                                         </td>
@@ -71,14 +71,14 @@
                      {% for photo in site.data.carousel %}
                         {% if photo.active == true %}
                             <div class="item active fixed-carrousel">
-                                <img src="{{ site.baseurl }}public/images/{{ photo.image_name }}" alt="...">
+                                <img src="{{ site.github.url }}public/images/{{ photo.image_name }}" alt="...">
                                 <div class="carousel-caption">
                                     {{ photo.caption }}
                                 </div>
                             </div>
                         {% elsif photo.active == false %}
                             <div class="item fixed-carrousel">
-                                <img src="{{ site.baseurl }}public/images/{{ photo.image_name }}" alt="...">
+                                <img src="{{ site.github.url }}public/images/{{ photo.image_name }}" alt="...">
                                 <div class="carousel-caption">
                                     {{ photo.caption }}
                                 </div>

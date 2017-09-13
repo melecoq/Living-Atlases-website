@@ -3,10 +3,10 @@
 title:               Living Atlases
 email:               example@gmail.com
 tagline:             Living Atlases community
-url:                 "https://melecoq.github.io/Living-Atlases-website/" # insert your site's URL
-baseurl:             "https://melecoq.github.io/Living-Atlases-website/"
-# url: 
-# baseurl: 
+# url:                 "https://melecoq.github.io/Living-Atlases-website/" # insert your site's URL
+# baseurl:             "https://melecoq.github.io/Living-Atlases-website/"
+url: 
+baseurl: 
 
 # About/contact
 author: # you can edit these to be your personal details
@@ -33,8 +33,9 @@ github:
   repo:              https://github.com/kevit/devaid-jekyll-theme
 
 # Gems - Dependencies for this theme
-gems:
-  # None currently
+plugins:
+  - github-pages
+
 
 # Build settings
 markdown:     kramdown

@@ -429,6 +429,9 @@ pre code {
 .events .event-table-2{
   padding-right: 15px; 
 }
+.events a:visited, .event a:hover, .event a:active{
+  color: #D5502A;
+}
 /* ======= Materials page ======== */
 .presentations .title{
   margin-bottom: 30px;
