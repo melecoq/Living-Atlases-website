@@ -2,7 +2,7 @@
     <header id="header" class="header">
         <div class="container">
             <h1 class="logo pull-left">
-                <a href="{{ site.url }}">
+                <a href="{{ site.github.url }}">
                     <span class="logo-title">{{ site.title }}</span> 
 
                 </a>
@@ -24,9 +24,9 @@
                             {% if widget.page == page.title %} 
                                 <a class="scrollto" href="#{{ widget.archor }}"> 
                             {% elsif widget.page == 'Home' %}
-                                <a href="{{ site.url }}#{{ widget.url }}">
+                                <a href="{{ site.github.url }}#{{ widget.url }}">
                             {% else %}
-                                <a href="{{ site.url }}{{ widget.url }}">
+                                <a href="{{ site.github.url }}{{ widget.url }}">
                             {% endif %} 
                                 {{ widget.title }}</a></li>
                         {% endfor %}
