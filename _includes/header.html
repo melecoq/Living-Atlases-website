@@ -24,7 +24,7 @@
                             {% if widget.page == page.title %} 
                                 <a class="scrollto" href="#{{ widget.archor }}"> 
                             {% elsif widget.page == 'Home' %}
-                                <a href="{{ site.github.url }}#{{ widget.url }}">
+                                <a href="{{ site.github.url }}{{ widget.url }}">
                             {% else %}
                                 <a href="{{ site.github.url }}{{ widget.url }}">
                             {% endif %} 
