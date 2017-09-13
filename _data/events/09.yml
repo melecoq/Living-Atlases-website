@@ -1,7 +1,7 @@
 id: "9"
 title: "GEO BON Open Science Conference"
 type: Conference
-description:  <p class="text-justify">In July 2016, during the GEO BON conference,  a session and hands-on workshop with main subject as "National Biodiversity Monitoring Network" had been proposed by iDiv, Atlas of Living Australia and other institutions. During this session, two presentations has been made about Atlas of Living Australia tools and community.All abstracts from this thematic are available on the <a href="http://conf2016.geobon.org/Downloads/PDF/GEOBON_Abstract_Book_OSC2016.pdf" target="_blank">official website</a> (beginning at page 99). </p>
+description:  <p class="text-justify">In July 2016, during the GEO BON conference, a session and hands-on workshop with "National Biodiversity Monitoring Network" as main subject had been proposed by iDiv, Atlas of Living Australia and other institutions. During this session, two presentations have been made about Atlas of Living Australia tools and community. All abstracts from this session are available on the <a href="http://conf2016.geobon.org/Downloads/PDF/GEOBON_Abstract_Book_OSC2016.pdf" target="_blank">official website</a> (beginning at page 99). </p>
 date: July 4, 2016 - July 8, 2016
 place: Liepzig, Germany - Helmholtz Centre for Environmental Research – UFZ
 valide: false
@@ -17,5 +17,5 @@ materials:
   title: "Atlas of Living France: GBIF France's portal access to primary data about biodiversity provided by French institutions"
   link: "9-Lecoq-GEOBON.pdf"
   type: "Talk"
-  ext: true 
+  ext: false 
 

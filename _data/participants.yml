@@ -82,7 +82,7 @@
   language: Spanish
   status: In production
 
-- institution: University of Tartu Natural History Museum
+- institution: University of Tartu 
   country: Estonia
   status: In progress
 
@@ -91,3 +91,10 @@
 
 - country: Germany
   status: In discussion
+
+- institution: 
+  data-portal: 
+  gbif-page: 
+  country: Andorra
+  language: 
+  status: 
