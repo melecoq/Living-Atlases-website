@@ -44,22 +44,22 @@ permalink:    pretty
 widgets:
   - title: Introduction
     archor: intro
-    url: #intro
+    url: '#intro'
     pages: 
       - name: Home
   - title: Documentation & Links
     archor: docs
-    url: #docs
+    url: '#docs'
     pages: 
       - name: Home
   - title: Participants
     archor: participants
-    url: #participants
+    url: '#participants'
     pages: 
       - name: Home
   - title: Contact
     archor: contact
-    url: #contact
+    url: '#contact'
     pages: 
       - name: Home
       - name: Events
