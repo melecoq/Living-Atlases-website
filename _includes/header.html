@@ -19,8 +19,17 @@
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         {% for widget in site.widgets %}
-                        <li class="nav-item"> 
-                                <a class="scrollto" href="#{{ widget.archor }}">{{ widget.title }}</a></li>
+                            {% assign flag = false %}
+                            <li class="nav-item"> 
+                                {% for pageTitle in widget.pages %}
+                                    {% if pageTitle.name == page.title %}  
+                                        <a class="scrollto" href="#{{ widget.archor }}">{{ widget.title }}</a></li>
+                                        {% assign flag = true %}
+                                    {% endif %}
+                                {% endfor %}
+                                {% if flag == false %}
+                                    <a class="scrollto" href="{{ site.github.url }}/{{ widget.url }}">{{ widget.title }}</a></li>
+                                {% endif %}
                         {% endfor %}
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
