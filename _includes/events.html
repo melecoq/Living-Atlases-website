@@ -4,13 +4,13 @@
             <h2 class="title text-center">Living Atlases events</h2>  
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-                {{ site.data.events }}
+                {{ site.data.events | sort }}
+               
 
 
                 {% for event_hash in site.data.events reversed  %}
                 {% assign event = event_hash[1] %}
                     <div class="panel panel-default">
-                        
                             <div class="button panel-heading" data-toggle="collapse" data-target="#{{ event.id }}">
                                 {% if event.type=="Portal" %}
                                     <span class="back-event back-event-portal">{{ event.type }}</span> {{ event.title }}
