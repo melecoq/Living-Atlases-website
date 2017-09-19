@@ -18,17 +18,9 @@
                 </div><!--//navbar-header-->
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
                         {% for widget in site.widgets %}
                         <li class="nav-item"> 
-                            {% if widget.page == page.title %} 
-                                <a class="scrollto" href="#{{ widget.archor }}"> 
-                            {% elsif widget.page == 'Home' %}
-                                <a href="{{ site.github.url }}{{ widget.url }}">
-                            {% else %}
-                                <a href="{{ site.github.url }}{{ widget.url }}">
-                            {% endif %} 
-                                {{ widget.title }}</a></li>
+                                <a class="scrollto" href="#{{ widget.archor }}">{{ widget.title }}</a></li>
                         {% endfor %}
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->

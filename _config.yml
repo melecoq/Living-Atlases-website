@@ -51,7 +51,7 @@ widgets:
     url: docs
     page: Home
   - title: Participants
-    archor: participants
+    archor: participantss
     url: participants
     page: Home
   - title: Contact
@@ -59,6 +59,6 @@ widgets:
     url: contact
     page: Home
   - title: Events
-    archor: event
-    url: event
-    page: Event
+    archor: events
+    url: events
+    page: Events
