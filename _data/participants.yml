@@ -84,17 +84,19 @@
 
 - institution: University of Tartu 
   country: Estonia
+  language: Estonian
   status: In progress
 
 - country: Philippine
   status: In discussion
 
 - country: Germany
+  language: German
   status: In discussion
 
-- institution: 
+- institution: GBIF Andorra
   data-portal: 
   gbif-page: 
   country: Andorra
-  language: 
-  status: 
+  language: Catalan
+  status: In progress
