@@ -8,7 +8,7 @@
                
 
 
-                {% for event_hash in site.data.events | sort  %}
+                {% for event_hash in [site.data.events | sort]  %}
                 {{ event_hash }}
                 {% assign event = event_hash[1] %}
                     <div class="panel panel-default">
