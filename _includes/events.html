@@ -9,7 +9,7 @@
 
                 {{ site.data.events | sort  }}
 
-                {% for event_hash in site.data.events  %}
+                {% for event_hash in site.data.events | sort %}
                 {% assign event = event_hash[1] %}
                     <div class="panel panel-default">
                             <div class="button panel-heading" data-toggle="collapse" data-target="#{{ event.id }}">
