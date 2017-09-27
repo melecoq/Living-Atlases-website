@@ -1,15 +1,21 @@
 id: "4"
-title: "GBIF France data portal in production (28/05/2015)"
-type: Portal
-description: <p class="text-justify">Since the Atlas of Living Australia workshop, GBIF France technical team has worked on the national GBIF data portal based on Atlas of living Australia. For this release,they installed the registry and biocache modules. They launched this new tool during the GBIF France annual steering comity.</p>
-date: May 28, 2015 
+title: "Atlas of Living Europe workshop"
+type: Workshop
+description: <p class="text-justify">Organized as side event of the 2015 European Nodes Meeting, this workshop was a sequel to the 2014 GBIF/ALA Workshop in Canberra and brought together developers and node managers working on national installations of the ALA software. This was the first workshop where developers outside Atlas of Living Australia began to teach about platform future </p>
+date: May 4, 2015 - May 5, 2015
 place: Paris, France - Muséum national d'Histoire naturelle
 valide: false
 presentation: true
 materials:
 - id: "1"
-  speaker: "Marie-Elise Lecoq, <br /> Fabien Cavière."
-  title: "The French GBIF national data portal (Atlas of Living France)"
-  link: "http://portail.gbif.fr"
-  type: "Portal"
-  ext: true 
+  speaker: "David Martin (Atlas of Living Australia)"
+  title: "Architecture"
+  link: "2-architecture.pdf"
+  type: "Talk"
+  ext: false 
+- id: "2"
+  speaker: "David Martin (Atlas of Living Australia)"
+  title: "Operation"
+  link: "2-operation.pdf"
+  type: "Talk"
+  ext: false 

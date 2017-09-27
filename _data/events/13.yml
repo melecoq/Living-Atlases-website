@@ -1,15 +1,15 @@
 id: "13"
-title: "Regional Engagement Workshop, BID Caribbean"
-type: Meeting
-description: <p class="text-justify">During the Caribbean regional meeting around BID projects, Marie-Elise Lecoq, GBIF France lead developer, presented the community. The discussion opened by this presentation helped the BID project leads to work on the possibility of using Atlas of Living modules for creating a regional platform for Caribbean countries. </p>
-date: June 22nd, 2017 - June 23rd, 2017
-place: St Augustine, Trinidad and Tobago -  University of West Indies
+title: "Biodiversity Data Portal of Portugal in production (18/10/2016)"
+type: Portal
+description: <p class="text-justify">Since 2015, GBIF Portugal is an active member of the ALA community. Thanks several workshops and partnership with other participants, they were able to launch their new data portal in production in October 2016.  </p>
+date: October 19, 2016 
+place: Lisbon, Portugal 
 valide: false
 presentation: true
 materials:
 - id: "1"
-  speaker: "<b>Marie-Elise Lecoq (GBIF France) </b>, <br /> David Martin (Atlas of Living Australia)."
-  title: "Living Atlases community"
-  link: "12-ALA-community.pdf"
-  type: "Talk"
-  ext: false
+  speaker: ""
+  title: "Biodiversity Data Portal of Portugal "
+  link: "http://dados.gbif.pt/"
+  type: "Portal"
+  ext: true 

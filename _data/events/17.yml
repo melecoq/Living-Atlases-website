@@ -1,8 +1,15 @@
 id: "17"
-title: "Living Atlases workshop (CESP)"
+title: "CESP Canadensys - GBIF France"
 type: Workshop
-description: <p class="text-justify">This 5-day workshop will be funded for partners of this project through the GBIF CESP Program. The main objectives will be install or improve collectory and biocache modules, to install or improve the spatial portal and BIE modules.</p> <p class="text-justify">If you like to participate but are not a partner, you can contact GBIF Spain or <a href="http://www.gbif.fr/contact" target="_blank">GBIF France</a></p>
-date: February 12, 2018 - February 16, 2018
-place: Madrid, Spain - Real Jardin Botanico
-valide: true
-presentation: false
+description: <p class="text-justify">Through the CESP program from GBIF, GBIF France has helped Canadensys to install and configure its own data portal based on Atlas of Living Australia (ALA) tools. One of the main goal of this partnership is to improve the documentation in English but also in French. By this way, the community will be open to French-speaking countries, espacially in Africa. During this workshop, we redefined all the <a href="https://github.com/atlasoflivingaustralia/documentation/wiki" target="_blank">documentation</a> architecture and Fabien Cavière from GBIF France took the lead in order to improve this part in the community.  Documentation is the key factor to make this community work.</p>
+date: July 3th, 2017 - July 4th, 2017
+place: Montreal, Canada - Canadensys Headquarters
+valide: false
+presentation: true
+materials:
+- id: "1"
+  speaker: "Jérémy Goimard (Canadensys)"
+  title: ""
+  link: ""
+  type: "Talk"
+  ext: false
