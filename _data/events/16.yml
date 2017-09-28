@@ -1,15 +1,21 @@
 id: "16"
-title: "Regional Engagement Workshop, BID Caribbean"
-type: Meeting
-description: <p class="text-justify">During the Caribbean regional meeting around BID projects, Marie-Elise Lecoq, GBIF France lead developer, presented the community. The discussion opened by this presentation helped the BID project leads to work on the possibility of using Atlas of Living modules for creating a regional platform for Caribbean countries. </p>
-date: June 22nd, 2017 - June 23rd, 2017
-place: St Augustine, Trinidad and Tobago -  University of West Indies
+title: "Launch of the NBN Atlas Wales and NBN Altas (03/2017)"
+type: Portal
+description: <p class="text-justify">The NBN Atlas Wales and the NBN Atlas has been launched in march 2017. Adding to the NBN Atlas Scotland, they are the three first steps of the UK biodiversity network. </p>
+date: March, 2017 
+place: UK
 valide: false
 presentation: true
 materials:
 - id: "1"
-  speaker: "<b>Marie-Elise Lecoq (GBIF France) </b>, <br /> David Martin (Atlas of Living Australia)."
-  title: "Living Atlases community"
-  link: "12-ALA-community.pdf"
-  type: "Talk"
-  ext: false
+  speaker: "David Martin, CSIRO / ALA"
+  title: "NBN Atlas Wales"
+  link: "https://wales.nbnatlas.org/"
+  type: "Portal"
+  ext: true 
+- id: "2"
+  speaker: "David Martin, CSIRO / ALA"
+  title: "NBN Atlas"
+  link: "https://www.nbnatlas.org/"
+  type: "Portal"
+  ext: true 
